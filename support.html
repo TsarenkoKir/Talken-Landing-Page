@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support Talken - Decentralized, End-to-End Encrypted Chat</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Support Talken development. Your contributions help us build the future of decentralized, encrypted messaging on Quai Network.">
+    <meta name="keywords" content="Support Talken, donate, crypto, partnerships, Quai Network, privacy, security">
+    <meta name="author" content="Talken">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Support Talken - Decentralized, End-to-End Encrypted Chat">
+    <meta property="og:description" content="Support Talken development. Your contributions help us build the future of decentralized, encrypted messaging.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://talken.me/support">
+    <meta property="og:image" content="https://talken.me/og-image.png">
+    <meta property="og:site_name" content="Talken">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Support Talken - Decentralized, End-to-End Encrypted Chat">
+    <meta name="twitter:description" content="Support Talken development. Your contributions help us build the future of decentralized, encrypted messaging.">
+    <meta name="twitter:image" content="https://talken.me/twitter-image.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="public/PFP_X.png">
+    <link rel="apple-touch-icon" href="public/PFP_X.png">
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <div id="header-container"></div>
+
+    <!-- Support Page Content -->
+    <main class="support-page">
+        <!-- Hero Section -->
+        <section class="support-hero">
+            <div class="container">
+                <div class="support-hero-content">
+                    <h1 class="support-title">Support Talken</h1>
+                    <p class="support-subtitle">
+                        Your support helps us keep building and improving Talken.  
+                        All contributions are <span class="highlight">recorded on-chain</span>,  
+                        which may help us better recognize and appreciate our early  
+                        community members over time.
+                    </p>
+                    <div class="support-divider"></div>
+                    <p class="support-cta">Choose a preferred way to contribute below.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Support Options -->
+        <section class="support-options">
+            <div class="container">
+                <div class="support-grid">
+                    <!-- Crypto Support Card -->
+                    <div class="support-card">
+                        <h2 class="card-title">Support with Crypto</h2>
+                        <div class="crypto-networks">
+                            <div class="network-item">
+                                <div class="network-header">
+                                    <div class="network-icon">
+                                        <img src="public/quai-icon.png" alt="Quai Network" class="network-icon-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                        <i class="fas fa-network-wired" style="display: none;"></i>
+                                    </div>
+                                    <div class="network-info">
+                                        <h3>Quai Network</h3>
+                                        <p>Support us with $QUAI tokens.</p>
+                                    </div>
+                                </div>
+                                <div class="address-section">
+                                    <div class="address-display">
+                                        <code id="quai-address">0x00498A39A5C2Db114993340CF6a33373e113d23A</code>
+                                    </div>
+                                    <button class="copy-btn" data-address="quai-address" data-network="Quai Network">
+                                        <i class="fas fa-copy"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="network-item">
+                                <div class="network-header">
+                                    <div class="network-icon">
+                                        <img src="public/quai-icon.png" alt="Quai Network QI" class="network-icon-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                        <i class="fas fa-coins" style="display: none;"></i>
+                                    </div>
+                                    <div class="network-info">
+                                        <h3>Quai Network ($QI)</h3>
+                                        <p>Support us with $QI tokens.</p>
+                                    </div>
+                                </div>
+                                <div class="address-section">
+                                    <div class="address-display">
+                                        <code id="qi-address">PM8TJfRF6ZRX4YQ7evEY86DwpPMwUiGTM7A1LNTQGVWTPn3j2w77KyvLVchfTuBN7FrFZWjD3rEoR3FG7NRi1kEAVemc8riYs68zUGAnyrqPxqu3Q65d</code>
+                                    </div>
+                                    <button class="copy-btn" data-address="qi-address" data-network="Quai Network ($QI)">
+                                        <i class="fas fa-copy"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="network-item">
+                                <div class="network-header">
+                                    <div class="network-icon">
+                                        <i class="fab fa-ethereum"></i>
+                                    </div>
+                                    <div class="network-info">
+                                        <h3>Ethereum</h3>
+                                        <p>Support us with ETH or any ERC-20 tokens.</p>
+                                    </div>
+                                </div>
+                                <div class="address-section">
+                                    <div class="address-display">
+                                        <code id="eth-address">0x70596B4E2a03DfC6b61D9581653255C5c5D59F87</code>
+                                    </div>
+                                    <button class="copy-btn" data-address="eth-address" data-network="Ethereum">
+                                        <i class="fas fa-copy"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="network-item">
+                                <div class="network-header">
+                                    <div class="network-icon">
+                                        <i class="fab fa-bitcoin"></i>
+                                    </div>
+                                    <div class="network-info">
+                                        <h3>Bitcoin</h3>
+                                        <p>Support us with BTC (BRC20) tokens.</p>
+                                    </div>
+                                </div>
+                                <div class="address-section">
+                                    <div class="address-display">
+                                        <code id="btc-address">bc1q08kqwk5r95ny9vrq8avyeedwy83cejkt9kvwz0</code>
+                                    </div>
+                                    <button class="copy-btn" data-address="btc-address" data-network="Bitcoin">
+                                        <i class="fas fa-copy"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Partnerships Card -->
+                    <div class="support-card">
+                        <h2 class="card-title">Proposals & Partnerships</h2>
+                        <div class="partnerships-content">
+                            <div class="partnership-item">
+                                <div class="partnership-header">
+
+                                    <h3>Let's build together</h3>
+                                </div>
+                                <p>We're open to strategic collaborations and mutually beneficial opportunities. Let's combine efforts to accelerate innovation and growth.</p>
+                            </div>
+
+                            <div class="partnership-item">
+                                <h4>We're looking for:</h4>
+                                <ul>
+                                    <li>Product integrations & technical partnerships</li>
+                                    <li>Investments & funding opportunities</li>
+                                    <li>Marketing & community growth collaborations</li>
+                                    <li>Joint research & innovation projects</li>
+                                    <li>Access to new markets & distribution channels</li>
+                                </ul>
+                            </div>
+
+                            <div class="partnership-item">
+                                <h4>Why partner with us:</h4>
+                                <ul>
+                                    <li>Proven track record in Web3 product development</li>
+                                    <li>Strong brand presence and active community</li>
+                                    <li>Commitment to transparency and long-term value</li>
+                                </ul>
+                            </div>
+
+                            <div class="contact-section">
+                                <div class="contact-row">
+                                    <a href="mailto:talken.me@protonmail.com" class="contact-btn">
+                                        <i class="fas fa-envelope"></i>
+                                        Email Us
+                                    </a>
+                                    <div class="email-display">
+                                        <code id="email-address">talken.me@protonmail.com</code>
+                                    </div>
+                                    <button class="copy-btn" data-address="email-address" data-network="email">
+                                        <i class="fas fa-copy"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Social Links -->
+                <div class="social-links">
+                    <a href="https://discord.gg/URutACbPzQ" class="social-link" target="_blank" rel="noopener noreferrer">
+                        <div class="social-icon">
+                            <i class="fab fa-discord"></i>
+                        </div>
+                        <div class="social-info">
+                            <h3>Join our Discord</h3>
+                            <p>Connect with the community</p>
+                        </div>
+                    </a>
+                    <a href="https://x.com/0xTalken" class="social-link" target="_blank" rel="noopener noreferrer">
+                        <div class="social-icon">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <div class="social-info">
+                            <h3>Follow on X</h3>
+                            <p>Stay updated with our latest news</p>
+                        </div>
+                    </a>
+                    <a href="https://medium.com/@talken.me" class="social-link" target="_blank" rel="noopener noreferrer">
+                        <div class="social-icon">
+                            <img src="public/medium-icon.png" alt="Medium" class="social-icon-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <i class="fab fa-medium" style="display: none;"></i>
+                        </div>
+                        <div class="social-info">
+                            <h3>Read our Blog</h3>
+                            <p>Latest updates and insights</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Back Button -->
+                <div class="back-section">
+                    <button class="back-btn" onclick="goBack()">
+                        <i class="fas fa-arrow-left"></i>
+                        Back
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <div id="footer-container"></div>
+
+
+    <!-- Scripts -->
+    <script src="src/config.js"></script>
+    <script src="src/header.js"></script>
+    <script src="src/footer.js"></script>
+    <script src="src/components.js"></script>
+    <script src="src/support.js"></script>
+</body>
+</html>
